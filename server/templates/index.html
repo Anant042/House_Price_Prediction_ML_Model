@@ -153,15 +153,17 @@
             <input type="number" id="total_sqft" name="total_sqft" required>
 
             <label for="location">Location:</label>
-           <select id="location" name="location" required>
+            <select id="location" name="location" required>
                 <option value="1st block jayanagar">1st block jayanagar</option>
                 <option value="1st phase jp nagar">1st phase jp nagar</option>
                 <option value="2nd phase judicial layout">2nd phase judicial layout</option>
                 <option value="2nd stage nagarbhavi">2nd stage nagarbhavi</option>
                 <option value="5th block hbr layout">5th block hbr layout</option>
-               
+                {% for location in locations %}
+                    <option value="{{ location }}">{{ location }}</option>
+                {% endfor %}
             </select>
-
+        
             <label for="bhk">BHK:</label>
             <input type="number" id="bhk" name="bhk" required>
 
@@ -195,4 +197,3 @@
 </body>
 </html>
 
- -->
