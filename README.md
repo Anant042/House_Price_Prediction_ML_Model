@@ -35,7 +35,7 @@ This project predicts house prices using a regression model trained on various f
 
 ## Dataset
 
-- Download data from [Kaggle](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data) (specify the dataset URL as needed)
+- Download data from [Kaggle](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
 
 ## Installation
 
