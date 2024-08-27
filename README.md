@@ -1,4 +1,4 @@
-# House Price Prediction Using Regression
+# House Price Prediction 
 
 This project is an implementation of a regression model to predict house prices based on location, number of bedrooms (BHK), bathrooms, and area. The project uses several regression algorithms, including Lasso and DecisionTreeRegressor, with the best model being selected using GridSearchCV. The application is built using Flask, and the API can be run locally.
 
